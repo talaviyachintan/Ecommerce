@@ -1,0 +1,254 @@
+@media screen and (max-width:1399px){
+    .specer{
+        margin-bottom: 80px;
+    }
+    
+}
+
+@media screen and (max-width:1199px){
+    .trending_product .nav.nav-pills{
+         left: 35%;
+    }
+    .trending_product{
+        padding: 60px 15px;
+    }
+    .trending_product .nav.nav-pills{
+        top: 60px;
+    }
+    #bestsell .card{
+        /* width: 70%; */
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:991px){
+    .specer{
+        margin-bottom: 50px;
+    }
+    .top_cate .nav.nav-pills,
+    .trending_product .nav.nav-pills{
+    position: static;
+    /* text-align: center; */
+    /* display: flex; */
+    /* justify-content: center; */
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 15px;
+    /* margin-top: 100px; */
+    }
+    .banner_heading{
+        font-size: 2.5rem;
+    }
+    #banner .item{
+        height: 300px;
+   }
+   .trending_product{
+    padding: 30px 15px;
+    }
+    .contactbox{
+        padding: 0 15px !important;
+    }
+    .contactpage_left{
+        border-right: 1px solid #e5e5e5 !important;
+    }
+    .contactpage_titlebg{
+        margin-bottom: 20px;
+    }
+    .contactpage_title,
+    .contactpage_locationbg{
+        margin-bottom: 15px;
+    }
+    .contactpage_left,
+    .contactpage_right{ 
+     padding: 15px;
+    }
+    .contactpage_loction{
+        margin-bottom: 10px;
+        padding-bottom: 15px;
+    }
+    .contactpage_map{
+        height: auto;
+    }
+    .aboutpage_secbg{
+        margin: 20px 0;
+    }
+    .aboutpage_text h1{
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .couner_area {
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+    .counter_leftarea h1{
+        margin-bottom: 15px;
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .aboutpage_counter {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .aboutpage_temsec{
+        margin-bottom: 30px;
+    }
+    .aboutpage_teamcap {
+        padding-left: 0px;
+    }
+    .abopage_sinpro{
+        margin-bottom: 15px;
+    }
+    .cart_table1 tr{
+        display: block !important;
+    }
+    .cart_table1 th{
+        width: 100% !important;
+        text-align: right;
+        padding: 10px!important;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .cart_pro_thmbnail img{
+        width: 74px !important;
+    }
+    .cart_table2{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:767px){
+    .specer{
+        margin-bottom: 30px;
+    }
+    .owl-nav{
+         display: none !important;
+    }
+    .section_headbg{
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+    .cat_secoundbg {
+        width: 70%;
+        margin: auto;
+    }
+    .cat_secound>div{
+        padding: 0 12px !important;
+        margin: 10px 0 !important;
+    }
+    .trending_product{
+        padding: 20px 10px;
+    }
+    .aboutpage_text h1{
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    #shoppage_pro_horizontal .card{
+        display: block !important;
+        text-align: center !important;
+    }
+    #shoppage_pro_horizontal .card .star_rating_block{
+        display: inline-block;
+        text-align: center;
+    }
+    #shoppage_pro_horizontal .card .progress{
+        margin: auto;
+    }
+    .thumbnail .slick-track .slick-slide{
+        margin-bottom: 0;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .our_tre{
+         left: 0 !important;
+         display: grid;
+         grid-template-columns: repeat(2,minmax(200px,2fr));
+         overflow: auto;
+         width: 100%;
+    }
+    .our_top{
+         /* position: absolute !important; */
+         left: 0 !important;
+         /* top: 0; */
+         display: grid;
+         grid-template-columns: repeat(3,minmax(150px,2fr));
+         /* overflow: auto; */
+         /* position: static; */
+         /* text-align: center; */
+         overflow: scroll;
+         overflow: auto;
+         width: 100%;
+    }
+    .banner_captipon span{
+        display: none;
+    }
+    .banner_heading{
+        font-size: 1.875rem;
+    }
+    .banner_captipon p{
+        font-size: 16px;
+    }
+    .cat_secoundbg {
+        width: 100%;
+    }
+    .cat_secound_price{
+        display: none;
+    }
+    .counter_rightarea{
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    .aboutpage_team{
+        display: inline-block;
+    }
+    .aboutpage_team>div{
+        margin-bottom: 15px;
+    }
+    .pro_page_tabs>ul{
+        border-bottom: 0 !important;
+    }
+    .shop_page_filter{
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .shop_page_navbg{
+        display: flex;
+        justify-content: center;
+    }
+    .timebox {
+        width: 25px;
+        height: 25px;
+        font-size: 10px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+    .sub_menu{
+        width: 250px;
+    }
+}
+@media all and (min-width: 991px) {
+    .mega_menu{
+        display: grid !important;
+        grid-template-columns: repeat(3,minmax(250px,1fr));
+    }
+}
+@media all and (min-width: 767px) and (max-width: 991px){
+    .mega_menu{
+        display: grid !important;
+        grid-template-columns: repeat(2,minmax(250px,1fr));
+    }
+}
+@media screen and (max-width: 1024px){
+    #shoppage_pro_horizontal .card{
+        grid-template-columns: 1.7fr 2fr !important;
+    }
+}
